@@ -1,5 +1,18 @@
 # rest added by Mahdi
 
+# >> self update(.tcshrc) and zshrc files
+cd ~/zshrc-M3Pro
+
+git reset --hard HEAD
+git pull
+
+cp ./.zshrc ~/.zshrc
+cp ./.export ~/.export
+
+cd
+
+# > export
+source ".export"
 
 # >>> pyenv
 
