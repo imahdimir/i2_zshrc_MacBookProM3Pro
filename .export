@@ -1,6 +1,5 @@
 export DB="/Users/mmir/Library/CloudStorage/Dropbox"
-export LC=""
 export EV="$DB/B-EV"
 export C="$EV/A1-GIT-CODE"
 export PG="$DB/C1-P-G"
-export PG_SF="$PG/A1-Git-SF"
+export PGSF="$PG/A1-Git-SF"
