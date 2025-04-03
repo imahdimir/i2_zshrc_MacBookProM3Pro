@@ -1,6 +1,4 @@
-# rest added by Mahdi
-
-# >> self update(.tcshrc) and zshrc files
+# self update(.tcshrc) and zshrc files
 cd ~/zshrc-M3Pro
 
 git reset --hard HEAD
