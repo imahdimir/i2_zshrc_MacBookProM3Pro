@@ -2,7 +2,7 @@
 
 repo_name=250403_zshrc_on_MacBook_Pro_M3Pro
 
-echo "Updating .zshrc & setup from Github.com/$repo_name"
+echo "Updating .zshrc & setup from https://Github.com/$repo_name"
 
 cd ~/$repo_name
 
