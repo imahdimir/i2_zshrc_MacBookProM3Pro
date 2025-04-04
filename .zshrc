@@ -1,10 +1,13 @@
-# update repo on Mac
+alias echoblue="echo -e \033[34m\!* \033[0m"'
 
-repo_name=250403_zshrc_on_MacBook_Pro_M3Pro
 
-echo "Updating .zshrc & setup from https://Github.com/$repo_name"
+# Update setup repo from Github base
 
-cd ~/$repo_name
+repo=i2_zshrc_on_MacBook_Pro_M3Pro
+
+echoblue "\n\nUpdating .zshrc from https://Github.com/$repo\n\n"
+
+cd ~/$repo
 
 git reset --hard HEAD
 git pull
@@ -14,7 +17,7 @@ cp ./.zshrc ~/.zshrc
 cd 
 
 
-source "$repo_name/.export"
+source "$repo/.export"
 
 
 # pyenv
