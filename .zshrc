@@ -1,4 +1,4 @@
-alias echoblue="echo -e \033[34m\!* \033[0m"'
+alias echoblue="echo -e \033[34m\!* \033[0m"
 
 
 # Update setup repo from Github base
